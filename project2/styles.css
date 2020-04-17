@@ -11,14 +11,14 @@
 
 body {
     color: black;
-    background-color: rgb(241, 252, 247);
+    background-color: #f4f4f7;
     margin: 0;
     padding: 0;
     
 }
 
 .main-wrap {
-    background-color: white;
+    background-color:#e6e6ec;
     width: 1128px;
     margin: 0 auto;
     border: 0;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .button {
-    background-color: rgb(81, 177, 148);
+    background-color: #acacc0;
     border-radius: 50%;
     border-style: none;
     font-size: 32px;
@@ -82,7 +82,7 @@ h1 {
 
 
 .main-footer {
-    background-color: black;
+    background-color: #acacc0;
     display: block;
     height: 100px;
     margin: auto;
