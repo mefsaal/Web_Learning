@@ -3,6 +3,7 @@
     <head>
         <title>Covid-19</title>
         <link rel="stylesheet" href="styles.css">
+     <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
     </head>
     <body>
         <!--
@@ -24,17 +25,45 @@
         
         <div class="main">
             <div class="buttons">
-                <button class="button">Factores de Riesgo</button>
-                <button class="button">Estadísticas</button>
-                <button class="button">Prevención</button>
+                <button class="button" id="button1">Factores de Riesgo</button>
+                <button class="button" id="button2">Estadísticas</button>
+                <button class="button" id="button3">Prevención</button>
            </div>
        </div>
-        
+ 
+        <script>
+        $(document).ready(function(){
+          $("#button1").click(function(){
+            $("p").toggle();
+          });
+        });
+        </script>
+        <script>
+            $(document).ready(function(){
+              $("#button2").click(function(){
+                $("p2").toggle();
+              });
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+              $("#button3").click(function(){
+                $("p3").toggle();
+              });
+            });
+        </script>                    
+
        <div class="section">
             <div class="ad"></div>
         
             <div class="text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur soluta quia quae magnam, error quam commodi a iure facere ipsum, quaerat hic cumque harum quos animi distinctio eveniet maiores corporis?</p>
+                <p2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur soluta quia quae magnam, error quam commodi a iure facere ipsum, quaerat hic cumque harum quos animi distinctio eveniet maiores corporis?</p2>
+                <p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur soluta quia quae magnam, error quam commodi a iure facere ipsum, quaerat hic cumque harum quos animi distinctio eveniet maiores corporis?</p3>
+
+ 
+ 
+ 
             </div>
         
             <div class="ad"></div>
@@ -53,6 +82,6 @@
             </div>
         </div>
      </div>
-        
+ 
     </body>
 </html>
