@@ -8,6 +8,11 @@
     --transition-speed: 600ms;
 }
 
+input:focus {
+    outline-style: dashed;
+    outline-color: hotpink;
+}
+
 body {
     color: black;
     background-color: #f4f4f7;
@@ -73,7 +78,6 @@ h1 {
     font-size: 32px;
     height: 200px;
     margin-left: 1rem;
-    outline: none;
     transition: all 0.3s;
     vertical-align: top;
     width: 200px;  
