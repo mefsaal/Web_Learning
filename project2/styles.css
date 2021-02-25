@@ -116,21 +116,3 @@ li {
     height: 50px;
     width: 100px;
 }
-
-#button1 {
-    background-color: red;
-    color: white;
-
-}
-
-#button2 {
-    background-color: yellow;
-    color: rgb(3, 2, 37);
-    
-}
-
-#button3 {
-    background-color: rgb(92, 13, 68);
-    color: white;
-}
- 
