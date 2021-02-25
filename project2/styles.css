@@ -8,6 +8,8 @@
     --transition-speed: 600ms;
 }
 
+
+
 input:focus {
     outline-style: dashed;
     outline-color: hotpink;
@@ -15,13 +17,13 @@ input:focus {
 
 body {
     color: black;
-    background-color: #f4f4f7;
+    background-color: #000000;
     margin: 0;
     padding: 0;   
 }
 
 .main-wrap {
-    background-color:#e6e6ec;
+    background-color:#133ae9;
     width: 1128px;
     margin: 0 auto;
     border: 0;
