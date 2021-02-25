@@ -71,11 +71,67 @@
         <div class="header">
             <h1>DEPRESIÓN EN LA PANDEMIA</h1>
         </div> 
-  
-      <button class="btn btn-primary btn-lg" type="button" data-toggle="collapse" data-target="#collapuno" aria-expanded="false" aria-controls="collapuno">Factores</button>
-      <button class="btn btn-secondary btn-lg" type="button" data-toggle="collapse" data-target="#collapdos" aria-expanded="false" aria-controls="collapdos">Estadísticas</button>       
-      <button class="btn btn-danger btn-lg" type="button" data-toggle="collapse" data-target="#collaptres" aria-expanded="false" aria-controls="collpatres">Efectos colaterales</button> 
-      <button class="btn btn-info btn-lg" type="button" data-toggle="collapse" data-target="#info" aria-expanded="false" aria-controls="info">Info</button>
+
+          <div class="container">
+            <div class="content-nav">
+                <a role="button" data-toggle="collapse" class="btn btn-primary btn-lg" aria-expanded="false" aria-controls="collap1" href="#collap1" class="collap1">Factores</a>
+                <a role="button" data-toggle="collapse" class="btn btn-secondary btn-lg" aria-expanded="false" aria-controls="collap2" href="#collap2" class="collap2">Estadísticas</a>
+                <a role="button" data-toggle="collapse" class="btn btn-danger btn-lg" aria-expanded="false" aria-controls="content-nav__book_first" href="#content-nav__book_first" class="content-nav__book content-nav__book_first">Efectos Colaterales</a>
+                <a role="button" data-toggle="collapse" class="btn btn-info btnl-lg" aria-expanded="false" aria-controls="content" href="#content-nav" class="content-info">Info</a>
+            </div>
+
+   <div id="content-articles">
+    
+    <div id="collap1" data-parent="#content-articles" class="content-article collapse">
+          <div class="content-article"> 
+        <div class="card-body">
+          pito 1 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>       
+       </div>  
+     </div>
+
+    <div id="collap2" data-parent="#content-articles" class="content-article collapse">
+        <div class="content-article">
+          <div class="card-body">
+             pito 2 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+    </div>
+
+    <div id="content-nav__book_first" data-parent="#content-articles" class="content-article collapse show">
+        <div id="content-article__info_first-1" data-parent="#content-nav__book_first" class="content-article__info collapse">
+            Book 1 article 1
+        </div>
+        <!--.content-article__info-->
+        <div id="content-article__info_first-2" data-parent="#content-nav__book_first" class="content-article__info collapse">
+            Book 1 article 2
+        </div>
+        <!--.content-article__info-->
+        <div id="content-article__info_first-3" data-parent="#content-nav__book_first" class="content-article__info collapse">
+            Book 1 article 3
+        </div>
+        <!--.content-article__info-->
+
+        <div class="content-article__plan">
+            <a data-toggle="collapse" aria-expanded="false" aria-controls="content-article__info_first-1" href="#content-article__info_first-1" class="content-article__plan-link content-article__plan-link_first-1">Link - Book 1 article 1</a>
+            <a data-toggle="collapse" aria-expanded="false" aria-controls="content-article__info_first-2" href="#content-article__info_first-2" class="content-article__plan-link content-article__plan-link_first-2">Link - Book 1 article 2</a>
+            <a data-toggle="collapse" aria-expanded="false" aria-controls="content-article__info_first-3" href="#content-article__info_first-3" class="content-article__plan-link content-article__plan-link_first-3">Link - Book 1 article 3</a>
+        </div>
+        <!--.content-article__plan-->
+    </div>
+    <!--.content-article-->
+</div>
+<!--#content-articles-->
+</div>        
+
+      <!-- <div class="container">
+      <div class="content-nav">
+        <a role="button" class="btn btn-primary btn-lg" type="button" data-toggle="collapse" data-target="#collapuno" aria-expanded="false" aria-controls="collapuno">Factores</a>
+        <a role="button" class="btn btn-secondary btn-lg" type="button" data-toggle="collapse" data-target="#collapdos" aria-expanded="false" aria-controls="collapdos">Estadísticas</a>       
+        <a role="button" class="btn btn-danger btn-lg" type="button" data-toggle="collapse" data-target="#collaptres" aria-expanded="false" aria-controls="collpatres">Efectos colaterales</a> 
+        <a role="button" class="btn btn-info btn-lg" type="button" data-toggle="collapse" data-target="#info" aria-expanded="false" aria-controls="info">Info</a>
+      </div> -->
+
 
       <div class="collapse" id="collapuno"> 
         <div class="card-body">
@@ -95,7 +151,7 @@
         </div>
       </div>
 
- 
+      </div>
 
         <div class="collapse" id="info">
             <div class="card-footer">
@@ -112,4 +168,5 @@
             <a href="#aboutUs"><span>Sobre Nosotros</span></a>
         </footer>
       </body>
+    </div>
 </html>
