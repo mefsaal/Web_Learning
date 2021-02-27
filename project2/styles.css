@@ -22,6 +22,17 @@ body {
     padding: 0;   
 }
 
+h1 {
+    background-image: url(C:\Users\Equipo\Web_Learning\project2\images\GettyImages-1209423875-scaled.jpg);
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 0;
+    background-position: center;
+    border: 1px solid black;
+    color:#a11159;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
 .main-wrap {
     background-color:#15c2c2c9;
     width: 1128px;
@@ -34,17 +45,7 @@ a {
     color: rgb(213, 221, 223);
 }
 
-h1 {
-    text-align: center;
-    font-size: 4rem;
-    margin-top: 0;
-    background-image: url(project2\images\GettyImages-1209423875-scaled.jpg);
-    background-size: 100%;
-    background-position: center;
-    border: 1px solid black;
-    color:#a11159;
-    font-family: 'Merriweather', serif; 
-}
+
 
 .section {
     margin: 10px;
