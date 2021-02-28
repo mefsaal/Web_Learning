@@ -23,9 +23,9 @@ body {
 }
 
 h1 {
-    background-image: url(C:\Users\Equipo\Web_Learning\project2\images\GettyImages-1209423875-scaled.jpg);
+    background-image: url(images/depresion2.jpg);
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
     margin-top: 0;
     background-position: center;
     border: 1px solid black;
@@ -106,5 +106,5 @@ li {
 
 
 .navbar {
-      background-color: rgb(190, 17, 17);
+      background-color: rgb(218, 18, 28);
 }
