@@ -100,3 +100,13 @@ li {
 .navbar {
       background-color: rgb(218, 18, 28);
 }
+
+
+#collaptext {
+  color: black;
+  padding: 40px;
+  text-align: right;
+  border: 0;
+  width: max-content;
+  height: max-content;
+}
