@@ -107,6 +107,6 @@ li {
   padding: 40px;
   text-align: right;
   border: 0;
-  width: max-content;
-  height: max-content;
+  width: 100%;
+  height: 100%;
 }
