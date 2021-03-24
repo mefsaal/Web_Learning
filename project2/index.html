@@ -30,9 +30,7 @@
             <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
             <!-- React part3 -->
             <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
-            <!-- Iframe Reziser-->
-            <script type="text/javascript" src="node_modules/iframe-resizer/js/iframeResizer.js"></script>
-     
+    
     </head>
     <body>
 
@@ -100,10 +98,14 @@
     <div id="collap1" data-parent="#content-articles" class="content-article collapse show">
         <div class="content-article">
           <div class="card-body">
-            <iframe src="elements/collap1.html" style="border: 0; width: 100%; height: auto" scrolling="no"></iframe>        
+            <iframe src="elements/collap1.html" style="width: 1px; min-width: 100%;" scrolling="no"></iframe>
+            <script> iFrameResize ({ log: true }, '#collap1') </script> 
           </div>
         </div>
      </div>
+
+ 
+
 
     <div id="collap2" data-parent="#content-articles" class="content-article collapse">
         <div class="content-article">
@@ -139,6 +141,7 @@
             <a href="#contact"><span>Contáctenos</span>|</a>
             <a href="#aboutUs"><span>Sobre Nosotros</span></a>
         </footer>
+ 
       </body>
     </div>
 </html>

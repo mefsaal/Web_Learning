@@ -26,11 +26,13 @@ h1 {
     background-image: url(images/depresion2.jpg);
     text-align: center;
     font-size: 6rem;
-    margin-top: 0;
+    margin-top: center;
     background-position: center;
     border: 1px solid black;
     color:#a11159;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1128px;
+    height: 600px;
 }
 
 .main-wrap {
