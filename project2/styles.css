@@ -23,23 +23,26 @@ body {
 }
 
 h1 {
+    position:  relative;
+    left: 18%;
+    right: 20%;
     background-image: url(images/depresion2.jpg);
+    background-size: 100% 300px;
     text-align: center;
-    font-size: 6rem;
-    margin-top: center;
+    font-size: 600%;
     background-position: center;
     border: 1px solid black;
     color:#a11159;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 1128px;
-    height: 600px;
+    height: 300px;
+    width: 1230px;
 }
 
 .main-wrap {
     background-color:#15c2c2c9;
-    width: 1128px;
+    width: 1230px;
     height: auto;
-    margin: 0 auto;
+    margin: auto;
     border: 0;
 }
 
@@ -64,10 +67,6 @@ a {
     display: inline-block;
     height: 700px;
     vertical-align: top;
-}
-
-.ad {
-    width: 10%;
 }
 
 .buttons {
@@ -111,3 +110,8 @@ li {
   text-align: right;
   border: 0;
 }
+
+iframe {
+  width: 1108px;
+  height: 710px;
+  }
