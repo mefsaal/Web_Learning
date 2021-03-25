@@ -18,20 +18,19 @@ input:focus {
 body {
     color: black;
     background-color: #000000;
-    margin: 0;
-    padding: 0;   
+
+  
 }
 
 h1 {
     position:  relative;
-    left: 18%;
+    left: 20%;
     right: 20%;
     background-image: url(images/depresion2.jpg);
     background-size: 100% 300px;
     text-align: center;
     font-size: 600%;
     background-position: center;
-    border: 1px solid black;
     color:#8f054a;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 300px;
@@ -39,41 +38,9 @@ h1 {
 }
 
 .main-wrap {
-    background-color:#15c2c2c9;
-    width: 1230px;
-    height: auto;
-    margin: auto;
-    border: 0;
-}
+    background-color:#05ffffe1;
+    width: 50%;
 
-a {
-    text-decoration: none;
-    color: rgb(213, 221, 223);
-}
-
-
-
-.section {
-    margin: 10px;
-    text-align: center;
-}
-
-.section div {
-    width: 25%;
-    background-color: #c9c9d6;
-    margin: 10px;
-    padding: 10px;
-    text-align: justify;
-    display: inline-block;
-    height: 700px;
-    vertical-align: top;
-}
-
-.buttons {
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    float: left;
 }
 
 .info {
@@ -84,10 +51,14 @@ a {
 }
 
 footer {
+    position: relative;
+    left: 20%;
+    right: 0;
     box-sizing: border-box;
     background-color: #acacc0;
     display: block;
     height: 100px;
+    width: 1230px;
     margin: 0;
     padding: 10px;
     text-align: center;
