@@ -8,13 +8,6 @@
     --transition-speed: 600ms;
 }
 
-
-
-input:focus {
-    outline-style: dashed;
-    outline-color: hotpink;
-}
-
 body {
     color: black;
     background-color: #000000;
